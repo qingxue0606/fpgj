@@ -1,0 +1,60 @@
+
+@-webkit-keyframes change
+{
+	0%{ -webkit-transform:rotate(0deg);}
+	50%{ -webkit-transform:rotate(180deg);}
+	100%{ -webkit-transform:rotate(360deg);}
+}
+
+.invoice-gathering{
+	
+	margin-top: 50px;
+
+	.top-pic{
+		background: url(../../img/gather-invoice/backg.png);
+		-webkit-background-size: contain;
+		background-size: contain;
+		height: 400px;
+		padding-top: 50px;
+		
+		.rota{
+			margin: 50px auto 0;
+			width: 120px;
+			height: 120px;
+			background: url(../../img/gather-invoice/quanquan.png);
+			background-size: cover;
+			-webkit-animation:change 2s linear infinite;
+		}
+		.rota-mail{
+			margin: 0 auto;
+			width: 100px;
+			height: 100px;
+			margin-top: -100px;
+			position: relative;
+			right: -6px;
+		}
+		.mail-account{
+			text-align: center;
+			margin-top: 70px;
+			color: #fff;
+
+		}
+	
+	}
+	.gather-doing{
+		text-align: center;
+		.right{
+			width: 15px;
+			height: 15px;
+		}
+		.acting{
+			color: #33b9ff;
+		}
+	}
+	.notice{
+		color: #999;
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+

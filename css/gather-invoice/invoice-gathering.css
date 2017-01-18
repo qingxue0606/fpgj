@@ -1,0 +1,57 @@
+@-webkit-keyframes change {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.invoice-gathering {
+  margin-top: 50px;
+}
+.invoice-gathering .top-pic {
+  background: url(../../img/gather-invoice/backg.png);
+  -webkit-background-size: contain;
+  background-size: contain;
+  height: 400px;
+  padding-top: 50px;
+}
+.invoice-gathering .top-pic .rota {
+  margin: 50px auto 0;
+  width: 120px;
+  height: 120px;
+  background: url(../../img/gather-invoice/quanquan.png);
+  background-size: cover;
+  -webkit-animation: change 2s linear infinite;
+}
+.invoice-gathering .top-pic .rota-mail {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-top: -100px;
+  position: relative;
+  right: -6px;
+}
+.invoice-gathering .top-pic .mail-account {
+  text-align: center;
+  margin-top: 70px;
+  color: #fff;
+}
+.invoice-gathering .gather-doing {
+  text-align: center;
+}
+.invoice-gathering .gather-doing .right {
+  width: 15px;
+  height: 15px;
+}
+.invoice-gathering .gather-doing .acting {
+  color: #33b9ff;
+}
+.invoice-gathering .notice {
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}

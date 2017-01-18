@@ -1,0 +1,17 @@
+.my-invoice {
+  height: 40px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  background-color: #fafafa;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 150px;
+  z-index: 1;
+}
+.my-invoice .img-myinvoice {
+  height: 100%;
+  width: 100%;
+}

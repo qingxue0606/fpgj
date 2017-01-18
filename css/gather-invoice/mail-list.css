@@ -1,0 +1,10 @@
+.mail-list {
+  margin-top: 50px;
+}
+.mail-list a {
+  float: right;
+}
+.mail-list .time-input {
+  margin-top: 5px;
+  margin-bottom: -5px;
+}

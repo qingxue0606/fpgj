@@ -1,0 +1,34 @@
+.mail-gather {
+  margin-top: 60px;
+  padding: 3px 40px;
+}
+.mail-gather .pic-mail {
+  background-color: #eff4fa;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail-gather .pic-mail img {
+  width: 80%;
+  height: 40%;
+}
+.mail-gather .other-mail {
+  text-align: center;
+  margin-top: 40px;
+}
+.mail-gather .mail-input {
+  position: relative;
+  margin: 30px auto;
+}
+.mail-gather .mail-input .mail-btn {
+  background-color: #e1f7f3;
+  position: absolute;
+  right: 4px;
+  top: 8px;
+  padding: 0 5px;
+}
+.mail-gather .passwd {
+  margin-bottom: 30px;
+}

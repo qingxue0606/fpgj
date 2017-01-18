@@ -1,0 +1,41 @@
+/* this kaipiaoxinxi style */
+.content {
+  padding: 15px;
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  background-color: #ccc;
+}
+.content .content-kpxx {
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+.content .content-kpxx .kpxx-taitou {
+  height: 20%;
+  font-size: 16px;
+  padding-top: 9%;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+}
+.content .content-kpxx .kpxx-taitou .taitou-qr {
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+}
+.content .content-kpxx .kpxx-item {
+  background-color: #fff;
+  width: 100%;
+  text-align: left;
+  padding-top: 10px;
+  text-indent: -5em;
+  padding-left: 6em;
+}

@@ -1,0 +1,38 @@
+.center-person {
+  background-color: #fafafa;
+  margin-top: 50px;
+  padding-left: 10px;
+}
+.center-person .info {
+  background-color: #fff;
+  height: 80px;
+  line-height: 80px;
+}
+.center-person .info img {
+  height: 40px;
+}
+.center-person .info span {
+  margin-left: 10px;
+}
+.center-person .comm {
+  background-color: #fff;
+  margin-top: 5px;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 20px;
+}
+.center-person .comm .icon {
+  float: right;
+}
+.center-person .comm .version {
+  float: right;
+  margin-right: 10px;
+}
+.center-person .logout {
+  position: fixed;
+  text-align: center;
+  font-size: 23px;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -45px;
+}

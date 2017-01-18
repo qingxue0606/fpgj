@@ -1,0 +1,42 @@
+.edit-innovice {
+  margin-top: 59px;
+  text-indent: 0.5em;
+}
+.edit-innovice .form-group {
+  height: 1.5em;
+  display: -webkit-flex;
+  /*	-webkit-justify-content: center;*/
+  -webkit-align-items: center;
+}
+.edit-innovice .form-group .control-label {
+  text-align: right;
+}
+.edit-innovice .form-group .form-control {
+  border: none;
+  height: 1.5em;
+  padding: 2px;
+  box-shadow: none;
+}
+.edit-innovice .notice {
+  height: 2.5em;
+  line-height: 2.5em;
+  background: #ddd;
+  color: #ff8208;
+  margin-bottom: 3px;
+}
+.edit-innovice .license {
+  height: 1.9em;
+  text-indent: 3em;
+}
+.edit-innovice .license-pic {
+  height: 80px;
+  width: 80px;
+  line-height: 50px;
+  font-size: 80px;
+  text-indent: 0px;
+  border: 1px solid #ddd;
+  margin-left: 40px;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}

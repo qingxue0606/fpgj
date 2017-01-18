@@ -1,0 +1,52 @@
+.invoice-detail{
+	background-color: #fafafa;
+	.img-einvoice{
+		padding-top: 30px;
+		text-align: center;
+		height: auto;
+		vertical-align: middle;
+		img{
+			width: 60%;
+			height:60%;
+		}
+	}
+	.invoice-detail-right{
+		border-bottom: 1px solid #999;
+	}
+
+	.money{
+		.left{
+			color: red;
+		}
+		.arrow{
+			display: inline-block;
+			float: right;
+			width: 1.5em;
+		}
+		.right{
+			float: right;
+		}
+	}
+	.consume{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+}
+
+.invoice-list{
+	margin-top: 200px;
+	list-style-type: none;
+	padding-left: 0;
+	li{
+		margin-bottom: 10px;
+		box-shadow: 0 10px 0 0 #666;  
+	.month{
+		font-size: 20px;
+		/*margin-top: 200px;*/
+		text-indent: 0.5em;
+		color: #666;
+
+	}
+	}
+}

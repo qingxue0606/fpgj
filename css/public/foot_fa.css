@@ -1,0 +1,38 @@
+.foot_fp {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  color: #33b9ff;
+  border: 1px solid #33b9ff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.foot_fp_active {
+  background-color: #33b9ff;
+  color: #fff;
+  position: relative;
+  top: -2px;
+}
+
+.foot_fp_none {
+  border: 1px solid #33b9ff;
+  position: relative;
+  top: -1px;
+}
+
+.more-win {
+  width: 100px;
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 10px;
+  display: none;
+}
+.more-win li {
+  background-color: #333;
+  color: #fff;
+}

@@ -1,0 +1,51 @@
+.wrap-qr{
+
+	background-color:rgba(0,0,0, 0.5);
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	.inner-qr{
+		position: absolute;
+		top: 99px;
+		bottom: 49px;
+		left: 39px;
+		right: 39px;
+		z-index: 2;
+		border-radius: 5px;
+		background-color: #fff;
+		.shut{
+			position: absolute;
+			right: 4px;
+			top: 4px;
+			width: 40px;
+			height: 40px;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+
+		}
+		.inner-qr-company{
+			margin-top: 50px;
+			text-align: center;
+		}
+		.note{
+			text-align: center;
+		}
+		.pic-qr{
+			height: 70%;
+			text-align: center;
+			img{
+				width: 70%;
+				height: 100%;
+			}
+			
+
+		}
+	}
+
+}
+

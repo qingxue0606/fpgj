@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*这是提问包裹层分享给其他人*/
+
+.wrap-share-other{
+	background-color: #8b8b8b;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	vertical-align: middle;
+	.inner-share-alert{
+		position: relative;
+		height: 35%;
+		margin:50% auto 0 auto;
+		width: 80%;
+		// position: absolute;
+		// top: 30%;
+		// bottom: 70%;
+		// left: 19px;
+		// right: 19px;
+		z-index: 2;
+		border-radius: 5px;
+		background-color: #fff;
+		padding-top: 30px;
+		.share-alert-title{
+
+
+			text-align: center;
+		}
+		.alert-num-warp{
+
+			text-align: center;
+			input{
+				height: 45px;
+				width: 90%;
+			}
+
+		}
+		.alter-but{
+			position: absolute;
+			bottom: 0;
+		}
+
+		
+	}
+
+
+}
